@@ -1,0 +1,29 @@
+.outer{
+    background-color: chocolate;
+    height: 500px;
+    width: 500px;
+}
+
+@media (max-width: 300px){
+    .outer{
+        background-color: green;
+    }
+}
+
+@media (min-width: 300px) and (max-width:400px){
+    .outer{
+        background-color: pink;
+    }
+}
+
+@media (min-width: 400px) and (max-width:600px){
+    .outer{
+        background-color: red;
+    }
+}
+
+@media (min-width:600px){
+    .outer{
+        background-color: blue;
+    }
+}
