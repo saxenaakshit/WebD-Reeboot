@@ -1,0 +1,35 @@
+/* color property */
+
+h1{
+    color: red;
+}
+p{
+    color: pink;
+}
+button{
+    color: blue;
+}
+
+/* background color */
+
+body{
+    background-color: plum;
+}
+
+button{
+    background-color: orange;
+}
+
+/* color systems */
+
+
+/* rgb */
+body{
+    background-color: rgb(50, 168, 82);
+}
+
+
+/* hexadecimal */
+body{background-color: #32a8a8;
+
+}

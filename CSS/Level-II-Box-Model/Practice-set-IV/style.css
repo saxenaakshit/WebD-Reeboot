@@ -1,0 +1,50 @@
+/* Q1:Create a webpage layout with a header, a footer & a content area containing 3 divs.
+Set the height & width of divs to 100px.
+(add the previous navbar in the header)
+Q2: Add borders to all the divs.
+Q3: Add a different background color to each div with an opacity of 0.5
+Q4: Give the content area an appropriate height. */
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+#one{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+
+}
+a{
+    margin-right: 180px;
+}
+button{
+    background-color: #f08804;
+}
+
+#box{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #0f1111;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+}

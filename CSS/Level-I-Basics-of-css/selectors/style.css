@@ -1,0 +1,28 @@
+/* universal selector */
+
+*{
+color: pink;
+}
+
+
+/* element selector */
+
+h1{
+    background-color: skyblue;
+}
+
+/* id selector ->they should have unique naming and class selectors have many elements with the same name*/
+
+#helloAkshit{
+    color: magenta;
+}
+
+#helloPra{
+color: blueviolet;
+}
+
+/* class selector */
+
+.hellohui{
+    color: brown;
+}

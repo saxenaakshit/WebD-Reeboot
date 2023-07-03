@@ -1,0 +1,9 @@
+div{
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-color: rgba(
+        221, 30, 67, 0.5);
+        text-align: center;
+        padding: 250px;
+}

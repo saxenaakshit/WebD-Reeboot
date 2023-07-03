@@ -1,0 +1,27 @@
+
+
+#one{
+    font-size: 20px;
+}
+#one{
+    line-height: 30px;
+}
+/* 
+font size:- it defines the size of the font written
+line-height:- it defines the height of the line in which the whole content is to be displayed */
+
+#one{
+text-transform: uppercase;
+}
+
+#two{
+
+    text-transform: lowercase;
+}
+
+#three{
+
+    text-transform: capitalize;
+}
+
+/* text-transform:- it is the method used for capitalize the first letter, making it upper case or lowercase----uppercase/lowercase/capitalize */

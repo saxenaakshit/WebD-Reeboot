@@ -1,0 +1,60 @@
+div{
+    height: 100px;
+    width: 350px;
+    background-color: aqua;
+}
+
+h1{
+    height: 250px;
+    width: 250px;
+    background-color: aquamarine;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: green; */
+    border: 4px dashed teal;
+    text-align: center;
+
+}
+
+.one{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border: 3px dotted black;
+    border-radius: 15px;
+    margin: 40px;
+}
+.two{
+    height: 200px;
+    width: 200px;
+    background-color: skyblue;
+    border: 3px dotted black;
+    border-radius: 50%;
+}
+.four{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    border: 3px dotted black;
+    border-radius: 15px;
+    padding: 10px 20px 40px 50px;
+}
+
+
+/* box model->
+1)height,width
+2)border properties->
+border-width, border-style, border-color--->shorthand-> border: 2px solid green 
+3) border-radius:- to round the edges of rectangels,squares (to make it a circle - border radius=50%)
+
+padding:-
+ padding-left , padding-right , padding-top , padding-bottom
+
+ shorthand:- padding:-top,right,bottom,left -->clockwise
+
+ padding: 45px---> 45px gap in all directions -> gap between content and border
+
+ margin-> gap between two boxes outside border.
+ all the other syntax is same for margin
+*/
+

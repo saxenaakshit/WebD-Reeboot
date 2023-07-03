@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <fieldset>
+            <legend>It is a basic form</legend>
+            <div>
+            
+                <input type="radio" name="radio1" id="radio1" value="male">
+                <label for="radio1">Male</label> 
+    
+                
+                <input type="radio" name="radio1" id="radio2" value="female">
+                <label for="radio2">Female</label>
+    
+                
+                <input type="radio" name="radio1" id="radio3" value="others">
+                <label for="radio3">Others</label>
+            </div>
+            <br><br>
+    
+           <!-- to select only unique from the radio buttons specify same name -->
+    
+           <label for="checkbox1">Hindi:</label>
+           <input type="checkbox" name="checkbox" id="checkbox1">
+    
+           <label for="checkbox2">English:</label>
+           <input type="checkbox" name="checkbox" id="checkbox2">
+    
+           <br>
+           <br>
+    
+    
+            <label for="fileinput">Input the file here</label>
+            <input type="file" name="filein" id="fileinput">
+            <br>
+            <br>
+    
+            <label for="image">select the image</label>
+            <input type="image" value="image" id="image" src="data:image/png;base64,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" alt="no visible">
+        
+            <label for="password">password</label>
+            <input type="password" name="" id="password" placeholder="enter pass here">
+        </fieldset>
+    </form>
+    
+</body>
+</html>

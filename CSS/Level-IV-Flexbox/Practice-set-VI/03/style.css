@@ -1,0 +1,18 @@
+.outer{
+    height: 500px;
+    width: 500px;
+    background-color: skyblue;
+    display: flex;
+    /* center in row axis */
+    justify-content: center;
+
+    /* center in cross axis */
+    align-items: center;
+   
+}
+.inner{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    align-self: flex-start;
+}

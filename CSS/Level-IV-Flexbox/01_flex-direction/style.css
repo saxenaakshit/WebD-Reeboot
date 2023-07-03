@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+ }
+
+ div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+ }
+
+ #container{
+    width: 800px;
+    height: 200px;
+
+    /* step-1:-make display flex */
+    display: flex;
+    /* flex-direction: row(default)->left to right ,row-reverse->right to left, column , column-reverse ;(fits itself inside the parent container and adjusts its height) */
+    flex-direction: row-reverse;
+ }
+
+ #box1{
+    background-color: aqua;
+ }
+
+ #box2{
+    background-color: pink;
+ }
+
+#box3{
+    background-color: darkkhaki;
+}
+#box4{
+    background-color: slateblue;
+}
+#box5{
+    background-color: indianred;
+}

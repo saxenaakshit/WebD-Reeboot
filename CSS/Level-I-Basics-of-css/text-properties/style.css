@@ -1,0 +1,47 @@
+#textAlign{
+    text-align: right;/* center/left/(start=left)/(end=right) */
+}
+
+#textDecoration{
+    text-decoration:underline  ; /* overline/linethrough/none */
+
+}
+a{
+    text-decoration: none;
+}
+
+/* text-weight */
+
+/* font weight-> lighter/bolder/bold/normal/range-100-900 */
+
+#h1{
+    font-weight: lighter;
+}
+#h2{
+    font-weight: bolder;
+}
+#h3{
+    font-weight: normal;
+}
+#h4{
+    font-weight: 900;
+}
+
+.two{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* font-family-> two ways two use:
+1)specify any one and if it is supportive two the browser then it will be used.
+2)specify one or more font families one after another and the fonts will be applied using fall-back mechanism(if one fails another one will be used)
+
+two types:
+a)generics
+1.1
+serif,sans-serif,cursive,fantasy,monospace
+b)non-generics */
+
+
+
+

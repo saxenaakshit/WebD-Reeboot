@@ -1,0 +1,9 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-image: url('my-pic\ \(1\).jpg');
+    background-size: cover;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+}
