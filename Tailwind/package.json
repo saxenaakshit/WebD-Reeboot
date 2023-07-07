@@ -15,6 +15,7 @@
     "tailwindcss": "^3.3.2"
   },
   "dependencies": {
+    "vit": "^0.0.1",
     "vite": "^4.3.9"
   }
 }
